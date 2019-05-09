@@ -1,0 +1,9 @@
+dashboard->halaman admin awal
+post->membuat artikel
+user->seting gambar nama dan lain-lain serta pemberitahuan 
+subscriber->melihat daftar subscriber
+settings->semua setingan untuk postingan
+logout->keluar
+collapse menu->kasih kecil menu
+
+editor->tinymce(pelajari dan curi)

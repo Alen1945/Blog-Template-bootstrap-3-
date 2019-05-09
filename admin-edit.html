@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<link rel="icon" href="icon/favicon.ico">
+	<title>Author | Batazibuk</title>
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- My CSS -->
+	<link rel="stylesheet" type="text/css" href="css/costum.css">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<nav class="navbar-admin">
+	  <div class="container-fluid">
+	      <ul class="menu-list pull-left">
+	      	<li><a class="nav-brand" href="home.html"><img src="icon/brand-nav.png"></a></li>
+	        <li><a href="#"><i class="glyphicon glyphicon-user" ></i>&nbsp;Author</a></li>
+			<li><a href="#"><i class="glyphicon glyphicon-plus" ></i>&nbsp;New</a></li>
+			<li class="globe-icon"><a href="#"><i class="glyphicon glyphicon-bell" ></i><span class="badge badge-costum">3</span></a></li>
+	      </ul>
+	  </div>
+	</nav>
+
+	<div class="content container-fluid container-costum">
+		<div class="author-panel">
+			<div class="menu">
+				<ul>
+					<li><a href="#"><i class="glyphicon glyphicon-dashboard"></i><span class="menu-exp">&nbsp;Dashboard</span></a></li> 
+					<li  class="active"><a href="#"><i class="glyphicon glyphicon-pencil"></i><span class="menu-exp">&nbsp;Posts</span></a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-user"></i><span class="menu-exp">&nbsp;User</span></a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-unchecked"></i><span class="menu-exp">&nbsp;Subscriber</span></a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-cog"></i><span class="menu-exp">&nbsp;Settings</span></a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-log-out"></i><span class="menu-exp">&nbsp;Log Out</span></a></li>
+					<li class="collapse-menu-btn hidden-xs"><a href="#"><i class="glyphicon glyphicon-chevron-left"></i><span class="menu-exp">&nbsp;Collapse Menu</span></a></li>
+				</ul>
+			</div>
+			<div class="content-menu">
+				<div class="content-posts">
+					<div class="row">
+						<div class="form-post col-sm-7 col-md-9">
+							<h4>Add New Post</h4>
+							<form method="post" action="">
+								<div class="form-group">
+									<input name="data-title" class="form-control" placeholder="Enter Title Here..." type="text" id="title" autofocus/>
+								</div>
+								<div class="form-group">
+									<textarea class="form-control">	
+									</textarea>
+								</div>
+								<div class="form-group pull-right">
+									<button type="submit" class="btn btn-info">Publish</button>
+								</div>
+							</form>
+						</div>
+						<div class="attribut-post col-sm-5 col-md-3">	
+							<h6>Post Property</h6>
+							<button type="button" class="btn btn-defaut">Save to Draft</button>
+							<button type="button" class="btn btn-defaut">Preview</button>
+							<div class="status">Visibility : Public&nbsp;<a href="#">edit</a></div>
+							<div class="status">Status : Draft&nbsp;<a href="#">edit</a></div>
+							<div class="category">
+								<h6>Category</h6>
+								<a href="#">add New Category</a>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div> 
+	</div> <!-- akhir content -->
+
+	<footer class="container-fluid footer">
+		<p class="copy">Batazibuk <i class="glyphicon glyphicon-copyright-mark"></i> 2018</p>
+		<p class="author">With <i class="glyphicon glyphicon-heart"></i><a href="https://facebook/alen"> Alen</a></p>
+	</footer> <!-- akhir footer -->
+
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<link rel="icon" href="icon/favicon.ico">
+	<title>Sign In | Batazibuk</title>
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- My CSS -->
+	<link rel="stylesheet" type="text/css" href="css/costum.css">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	
+	<div class="content container">
+		<div class="row">
+		 <div class="col-md-offset-3 col-md-6 login-form">
+		 	<div class="logo-login">
+		 		<a href="home.html"><h1>BataZibuk</h1></a>
+		 	</div>
+		 	<h3>Sign In</h3>
+			<form action="" class="form-horizontal" method="post" >
+				<div class="form-group">
+					<label class="control-label col-sm-4">UserName / E-Mail</label>
+					<div class="col-sm-8"><input name="data[User][name]" class="form-control" placeholder="userName / E-Mail" maxlength="125" type="text" id="Username"/></div>
+				</div><br>
+				<div class="form-group">
+					<label class="control-label col-sm-4">Password</label>
+					<div class="col-sm-8"><input name="data[User][pasword]" class="form-control" placeholder="Password" maxlength="125" type="text" id="password"/></div>
+				</div><br>
+
+				<div class="form-group">
+					<div class="col-sm-offset-4 col-sm-8"><button  label="Register" class="btn btn-success" type="submit">Sign In</button>&nbsp;&nbsp;&nbsp;<a href="#"><em>I Forgot My Password...</em></a></div>
+				</div>
+			</form><br>
+			<div class="col-sm-offset-4 col-sm-8">
+				<p>Dont have Account</p>
+				<button class="btn btn-primary">Sign In with facebook</button>
+				<button class="btn btn-danger">Create Account</button>
+			</div>
+	     </div>
+		</div>
+	</div> <!-- akhir content -->
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
